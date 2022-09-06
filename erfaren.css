@@ -1,8 +1,18 @@
 body {
-    background-color: black;
+  background-image: url("phone.jpg");
+  background-size: 120%;
 }
 
 h1 {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  transition: 0.3s;
+  font-size: 30px;
+}
+
+h1:hover {
+  color: #b242ff;
+  font-size: 30.8px;
+  cursor: pointer;
 }

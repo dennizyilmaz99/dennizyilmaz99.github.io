@@ -1,22 +1,26 @@
 body {
-  background-image: url("phone.jpg");
-  background-size: 115%;
+  background: url('cool3.jpeg') no-repeat center fixed;     
+  background-size: cover;
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 30px;
   text-align: center;
   font-family: "Nunito", sans-serif;
   cursor: default;
   color: white;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
   transition: 0.3s;
+  margin-bottom: 50px;
+  margin-left: 17px;
 }
 
 h1:hover {
   cursor: pointer;
-  color: #b242ff;
-  font-size: 70px;
+  color: cyan;
+  font-size: 35px;
+  opacity: 50%;
+  letter-spacing: 25px;
 }
 
 h2 {
@@ -24,20 +28,36 @@ h2 {
   font-family: "Nunito", sans-serif;
   cursor: default;
   color: white;
-  font-size: 15px;
+  font-size: 35px;
+  margin-top: 200px;
+}
+
+h5 {
+  text-align: center;
+  margin-top: 1000px;
+  font-size: 100px;
+  font-family: "Nunito", sans-serif;
+}
+
+h6 {
+  text-align: center;
+  margin-top: 400px;
+  font-size: 100px;
+  font-family: "Nunito", sans-serif;
 }
 
 .material-icons.md-48 {
   cursor: pointer;
-  font-size: 44px;
+  font-size: 20px;
   display: inline-block;
   color: white;
   transition: 0.3s;
 }
 
 .material-icons.md-48:hover {
-  color: #b242ff;
-  font-size: 48px;
+  color: cyan;
+  font-size: 35px;
+  opacity: 50%;
 }
 
 .Navbar {
@@ -45,25 +65,22 @@ h2 {
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 20%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .navbar-item {
-  font-size: 19px;
+  font-size: 15px;
   font-family: "Nunito", sans-serif;
   cursor: pointer;
-  margin: 10px;
+  margin: 1px;
   color: white;
   transition: 0.3s;
 }
 
 .navbar-item:hover {
-  color: #b242ff;
-  font-size: 21px;
-}
-
-a {
-  height: 1em;
+  color: cyan;
+  font-size: 17px;
+  opacity: 50%;
 }

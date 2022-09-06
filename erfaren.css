@@ -1,6 +1,6 @@
 body {
-  background-image: url("phone.jpg");
-  background-size: 120%;
+    background: url('cool3.jpeg') no-repeat center fixed;     
+    background-size: cover;
 }
 
 h1 {

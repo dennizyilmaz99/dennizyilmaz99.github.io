@@ -63,6 +63,12 @@ li.dropdown {
 	display: inline-block;
 }
 
+.nav {
+  justify-content: left;
+  position: fixed;
+  top: 7px;
+}
+
 .dropdown-content {
 	display: none;
 	position: absolute;
@@ -95,6 +101,7 @@ li.dropdown {
 	height: 1px;
 	position: fixed;
 	top: 8px;
+  right: 5px;
 }
 
 .dumle {
@@ -107,6 +114,7 @@ li.dropdown {
 	transition: 0.3s;
 	display: block;
 	text-decoration: none;
+  font-weight: 700;
 }
 
 .dumle:hover {
@@ -124,7 +132,7 @@ h2 {
 	cursor: default;
 	color: white;
 	font-size: 35px;
-	margin-top: 200px;
+	margin-top: 300px;
 }
 
 h5 {

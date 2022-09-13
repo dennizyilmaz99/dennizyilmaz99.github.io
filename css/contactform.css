@@ -2,38 +2,82 @@ body {
 	background: url("/img/cool3.jpeg") no-repeat center fixed;
 	background-size: cover;
 	overflow: overlay;
-}
-
-h1 {
+    color: white;
     font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
+
+.manus {
+    text-align: center;
+    font-weight: 300;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid cyan;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: transparent;
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: cyan;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.firstname {
     color: white;
 }
-#firstName {
-    
-}
 
-#lastName {
-
-}
-
-#email {
-
-}
-
-#country {
-
-}
-
-#question {
-    background-color: transparent;
-    
-}
-
-.q {
+.lastname {
     color: white;
-    background-color: white;
 }
 
-.btn {
-    background-color: transparent;
+.emailadd {
+    color: white;
+}
+
+.country {
+    color: white;
+}
+
+textarea  
+{  
+   font-family:"Ubuntu", sans-serif;  
+   font-size: 13px; 
+   color: white;  
 }

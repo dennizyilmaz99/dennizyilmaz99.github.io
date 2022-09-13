@@ -43,14 +43,12 @@ document.addEventListener("DOMContentLoaded", function() {
    }
 
    class User {
-    constructor(firstName, lastName, gender, address, country, email, newsletter, question) {
+    constructor(firstName, lastName, address, country, email, question) {
     this.firstName = firstName;
     this.lastName = lastName;
-    this.gender = gender;
     this.address = address;
     this.country = country;
     this.email = email;
-    this.newsletter = newsletter;
     this.question = question;
     }
    }

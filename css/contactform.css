@@ -3,8 +3,8 @@ body {
 	background-size: cover;
 	overflow: overlay;
     color: white;
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 * {
@@ -21,7 +21,7 @@ h3 {
 
 .manus {
     text-align: center;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 input[type=text], select, textarea {
@@ -44,6 +44,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 input[type=submit]:hover {
@@ -77,7 +78,7 @@ input[type=submit]:hover {
 
 textarea  
 {  
-   font-family:"Ubuntu", sans-serif;  
+   font-family: sans-serif;  
    font-size: 13px; 
    color: white;  
 }

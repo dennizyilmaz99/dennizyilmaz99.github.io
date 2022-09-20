@@ -100,26 +100,3 @@ h2 {
 	margin-top: 300px;
 	text-decoration: none;
 }
-
-h3 {
-	
-}
-
-
-  /* Responsive navigation menu (for mobile devices) */
-  @media only screen and (max-width: 600px) {
-
-	.topnav a, .topnav-right, .topnav-centered a {
-	  float: none;
-	  display: block;
-	  position: fixed;
-
-	}
-	
-	.topnav-centered a {
-	  position: relative;
-	  top: 0;
-	  left: 0;
-	  transform: none;
-	}
-  } 

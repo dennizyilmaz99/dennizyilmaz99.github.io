@@ -4,15 +4,10 @@ body {
 }
 
 h1 {
+  margin-top: 100px;
   text-align: center;
-  color: white;
+  color: black;
   font-family: "Nunito", sans-serif;
-  transition: 0.3s;
+  transition: 1s;
   font-size: 30px;
-}
-
-h1:hover {
-  color: #b242ff;
-  font-size: 30.8px;
-  cursor: pointer;
 }

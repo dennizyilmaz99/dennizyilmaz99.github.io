@@ -11,3 +11,7 @@ h1 {
   transition: 1s;
   font-size: 30px;
 }
+
+.animate__animated.animate__fadeInUp {
+  --animate-delay: 0.5s;
+}

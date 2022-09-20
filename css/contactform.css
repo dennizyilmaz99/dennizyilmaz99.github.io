@@ -85,3 +85,7 @@ textarea
    font-size: 13px; 
    color: #4E4B50;  
 }
+
+.animate__animated.animate__fadeIn {
+  --animate-delay: 0.5s;
+}

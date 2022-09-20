@@ -3,28 +3,20 @@ body {
 	background-size: cover;
 	overflow: overlay;
     color: white;
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-weight: 600;
 }
 
-h3 {
-    font-family: "Ubuntu", sans-serif;
+.tack {
+    font-family: "Nunito", sans-serif;
     font-size: 40px;
     text-align: center;
-    color: white;
-    font-weight: 400;
+    color: #4E4B50;
+    font-weight: 800;
+    margin-top: 100px;
 }
 
-.h1 {
-    justify-content: center;
-    margin: 80px;
-    display: flex;
-    font-weight: 400;
-    font-size: 25px;
-    text-decoration: none;
-    color: white;
-}
-
-.tack {
+.scndline {
     text-align: center;
+    color: #4E4B50;
 }

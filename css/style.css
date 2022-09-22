@@ -91,9 +91,10 @@ body {
 	display: block;
   }
 
-h2 {
+header h2{
 	text-align: center;
-	font-family: "Ubuntu", sans-serif;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
 	cursor: default;
 	color: #4E4B50;
 	font-size: 35px;

@@ -1,0 +1,26 @@
+body {
+    background: url("/img/malos.jpg")no-repeat center fixed;     
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 150px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    color: #4E4B50;
+    font-size: 30px;
+}
+
+#board {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-delay: 0.7s;
+  }

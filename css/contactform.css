@@ -65,19 +65,19 @@ input[type=submit]:hover {
   margin-top: -30px;
 }
 
-.firstname {
+#fname {
     color: #4E4B50;
 }
 
-.lastname {
+#lname {
     color: #4E4B50;
 }
 
-.emailadd {
+#email {
     color: #4E4B50;
 }
 
-.country {
+#country {
     color: #4E4B50;
 }
 
@@ -86,6 +86,11 @@ textarea
    font-family: sans-serif;  
    font-size: 13px; 
    color: #4E4B50;  
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .animate__animated.animate__fadeIn {

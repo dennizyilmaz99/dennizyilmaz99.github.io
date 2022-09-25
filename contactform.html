@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <script src="js/contactform.js"></script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="/css/contactform.css">
@@ -23,21 +22,21 @@
     <div class="animate__animated animate__fadeIn animate__delay-1s">
     <p class="manus">Come in touch with me by putting your information down below.</p>
     <div class="container">
-      <form action="https://formsubmit.co/testemail6877@gmail.com" method="POST">
+      <form id="contact-form">
         <!-- Honeypot -->
 
-        <input type="text" name="_honey" style="display: none;" >
+        <!-- <input type="text" name="_honey" style="display: none;" > -->
 
         <!-- Disable Captcha -->
 
-        <input type="hidden" name="_captcha" value="false">
+        <!-- <input type="hidden" name="_captcha" value="false"> -->
 
         <!-- Success Page -->
 
-        <input type="hidden" name="_next" value="https://dennizyilmaz99.github.io/success.html">
+        <!-- <input type="hidden" name="_next" value="https://dennizyilmaz99.github.io/success.html"> -->
 
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="First&nbsp;Name" placeholder="Your name.." required>
+        <input type="text" id="fname" name="fname" placeholder="Your name.." required>
     
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="Last&nbsp;Name" placeholder="Your last name.." required>
@@ -59,11 +58,18 @@
     
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="What's on your mind?" style="height:200px" required></textarea>
-    
-        <input type="submit" value="Submit">
+        <!-- <input type="submit" value="Submit"> -->
+        <button class="submitBtn">Submit</button>
+        <div class="message" id="message"></div>
       </form>
     </div>
     </div>
+
+
+
+
+
+
     <ul class="topnav">
 			<div class="topnav-centered">
 				<a href="./index.html"> < / > </a>
@@ -86,5 +92,7 @@
         <p>Or contact me here:</p>
         <a href="mailto:dennizyilmaz1903@gmail.com">dennizyilmaz1903@gmail.com</a>
       </footer>
+
+      <script src="/js/contactform.js"></script>
 </body>
 </html>
